@@ -6,7 +6,7 @@
 Welcome to Dragonfly!
 ===========================
 Dragonfly is an automated sandbox, developed by Certego, built over different emulation engines: it allows to customize the entire operating system and the rules used to hunt malware.
------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The sample is emulated and analyzed through a set of rules that Dragonfly's users can create, customize and share with other people, allowing the creation of a true white-box sandbox. Users are able to review and share public rules, customize them as they please and use every type of information that Dragonfly store about the emulation to create at any time more effective rules to hunt new malware. The emulation paradigm is extended to the operating system: it is possible to deeply customize the OS and then share the configuration with other members of the same organization.
 
