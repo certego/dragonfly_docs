@@ -13,3 +13,9 @@ The sample is emulated and analyzed through a set of rules that Dragonfly's user
 Dragonfly is currently in a CLOSED ALPHA state: every user after the registration process must be manually vetted before allowed to use the Dragonfly platform. We strongly encourage and invite people in the cyber security community (SOC analysts, threat intelligence researchers, reverse engineers) interested in malware analysis to request the access and try this new platform. Please, remember that a delay of 1/2 working days before receiving an approval is likely to happen.
 
 Given the state of the platform, bugs and issues are unfortunately expected: our team promise is to solve them in a timely manner. Since the project is in an ongoing development phase, new features and daily improvements are common. Feedbacks from the community are deeply appreciated, allowing the Dragonfly's team to keep the direction requested from its audience.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   rule/index
