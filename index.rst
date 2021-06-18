@@ -15,3 +15,4 @@ Given the state of the platform, bugs and issues are unfortunately expected: our
    :caption: Documentation:
 
    rule/index
+   profile/index
