@@ -12,6 +12,6 @@ Given the state of the platform, bugs and issues are unfortunately expected: our
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Documentation:
 
    rule/index

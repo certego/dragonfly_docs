@@ -1,0 +1,19 @@
+{
+  "and": [
+    {
+      "module": "pi",
+      "syscall": "VirtualAlloc",
+      "params": {
+        "0": "address"
+      }
+    },
+    {
+      "module": "Api",
+      "syscall": "VirtualProtect",
+      "params": {
+        "0": "address"
+      }
+    }
+  ],
+  "order": true
+}
