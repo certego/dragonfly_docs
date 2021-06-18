@@ -1,4 +1,4 @@
-Rule documentation
+Rule 
 ==========================
 Rules the objects that Dragonfly uses to verify malware behaviours.
 
@@ -13,7 +13,12 @@ Fields
 - Meta description is a free dictionary field where the user can write whatever s/he wants. It can be used to add information about the rules, add pointers to external documentation and so on.
 - In the variables field the user must declare the name of the variables that will be used in the modules. Variables are used to add a constraint between two different keys on the modules sections. An example is provided later.
 - Actions: TBD
-- Modules: the module and boolean clause syntax is explained in details in their own sections.
+
+.. toctree::
+   :maxdepth: 1
+   
+   clause/index.rst
+
 
 Example
 --------------
@@ -30,8 +35,3 @@ Example
     .. literalinclude:: rule.json
       :language: JSON
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Boolean Clause:
-
-   clause/index

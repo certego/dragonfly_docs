@@ -1,10 +1,10 @@
 Network
------------
+===========
 
 The module matches network requests made by the sample
 
 Fields
-^^^^^^^
+-------
 +------------+----------+-----------+-------+------+
 | Field name | Required | Variables | Regex | Type |
 +------------+----------+-----------+-------+------+
@@ -22,7 +22,7 @@ Fields
 +------------+----------+-----------+-------+------+
 
 Example
-^^^^^^^
+-------
 .. code:: python3
 
     {

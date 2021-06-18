@@ -1,10 +1,10 @@
 Api
--------
+=======
 
 The module matches windows Api calls that are executed by the sample
 
 Fields
-^^^^^^^
+-------
 
 +--------------+----------+-----------+-------+----------------------------------------------+
 | Field name   | Required | Variables | Regex | Type                                         |
@@ -18,7 +18,7 @@ Fields
 
 
 Example
-^^^^^^^
+-------
 .. code:: python3
 
     {

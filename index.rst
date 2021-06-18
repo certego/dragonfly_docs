@@ -1,3 +1,5 @@
+:tocdepth: 10
+
 Welcome to Dragonfly!
 ===========================
 Dragonfly is an automated sandbox, developed by Certego, built over different emulation engines: it allows to customize the entire operating system and the rules used to hunt malware.
@@ -11,7 +13,7 @@ Given the state of the platform, bugs and issues are unfortunately expected: our
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 10
    :caption: Documentation:
 
    rule/index

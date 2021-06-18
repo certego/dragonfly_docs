@@ -1,10 +1,10 @@
 SubRule
------------
+===========
 
 The module refers to another rule
 
 Fields
-^^^^^^^
+-------
 +------------+----------+-----------+-------+------+
 | Field name | Required | Variables | Regex | Type |
 +------------+----------+-----------+-------+------+
@@ -13,7 +13,7 @@ Fields
 
 
 Example
-^^^^^^^
+-------
 
 .. code:: python3
 

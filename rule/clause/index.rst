@@ -1,4 +1,4 @@
-Boolean clause documentation
+Boolean clause 
 ===============================
 
 At the moment, Dragonfly supports three different boolean clauses:
@@ -18,6 +18,12 @@ Fields
 +------------+----------+---------------+-------+------+
 | order      | False    | False         | bool  | str  |
 +------------+----------+---------------+-------+------+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Modules
+
+   module/index
 
 Example
 --------
@@ -43,9 +49,3 @@ Example
       ],
       order: true
     }
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Modules:
-
-   module/index

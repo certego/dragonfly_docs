@@ -1,4 +1,4 @@
-Profile Documentation
+Profile 
 =======================
 
 Profiles are a way to manage the emulation process and the entire emulation operating system through configuration files

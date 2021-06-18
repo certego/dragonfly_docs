@@ -1,4 +1,4 @@
-Module documentation
+Module 
 ==========================
 
 A module is a single type of information that Dragonfly stored.
@@ -17,7 +17,7 @@ These are the modules that Dragonfly supports at the moment
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Modules:
 
    api
