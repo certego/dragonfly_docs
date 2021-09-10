@@ -5,17 +5,36 @@ The module matches files that are created, open or deleted by the sample
 
 Fields
 -------
-+------------+----------+-----------+-------+----------------------------------+
-| Field name | Required | Variables | Regex | Type                             |
-+------------+----------+-----------+-------+----------------------------------+
-| file_name  | False    | True      | True  | str                              |
-+------------+----------+-----------+-------+----------------------------------+
-| sha256     | False    | False     | False | str                              |
-+------------+----------+-----------+-------+----------------------------------+
-| content    | False    | True      | True  | s                                |
-+------------+----------+-----------+-------+----------------------------------+
-| access     | False    | False     | False | enum["open", "create", "delete"] |
-+------------+----------+-----------+-------+----------------------------------+
+
+.. list-table::
+    :widths:  25 10 10 10 45
+    :header-rows: 1
+
+    * - Field name
+      - Required
+      - Variables
+      - Regex
+      - Type
+    * - file_name
+      - False
+      - True
+      - True
+      - str
+    * - sha256
+      - False
+      - False
+      - False
+      - str
+    * - content
+      - False
+      - True
+      - True
+      - str
+    * - access
+      - False
+      - False
+      - False
+      - enum["open", "create", "delete"]
 
 Example
 -------

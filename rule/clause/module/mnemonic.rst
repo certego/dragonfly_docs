@@ -5,11 +5,21 @@ The module matches assembly code executed by the sample
 
 Fields
 -------
-+--------------+---------------------+--------------+-------+----------------------+
-| Field name   | Required            | Variables    | Regex | Type                 |
-+--------------+---------------------+--------------+-------+----------------------+
-| instructions | True or addressTrue | True, only ? | False | List[str]            |
-+--------------+---------------------+--------------+-------+----------------------+
+
+.. list-table::
+    :widths:  25 10 10 10 45
+    :header-rows: 1
+
+    * - Field name
+      - Required
+      - Variables
+      - Regex
+      - Type
+    * - instructions
+      - True
+      - False, ? allowed
+      - False
+      - List[str]
 
 Example
 -------

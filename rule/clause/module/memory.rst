@@ -5,19 +5,31 @@ The module matches memory accesses made by the sample
 
 Fields
 -------
-+------------+-------------------+-----------+-------+----------------------+
-| Field name | Required          | Variables | Regex | Type                 |
-+------------+-------------------+-----------+-------+----------------------+
-| structure  | True or address   | False     | False | str                  |
-+------------+-------------------+-----------+-------+----------------------+
-| address    | True or structure | True      | False | Union[str, int]      |
-+------------+-------------------+-----------+-------+----------------------+
-| offset     | False             | False     | False | int                  |
-+------------+-------------------+-----------+-------+----------------------+
-| content    | False             | True      | False | str                  |
-+------------+-------------------+-----------+-------+----------------------+
-| mode       | False             | False     | False | enum["read","write"] |
-+------------+-------------------+-----------+-------+----------------------+
+
+.. list-table::
+    :widths:  25 10 10 10 45
+    :header-rows: 1
+
+    * - Field name
+      - Required
+      - Variables
+      - Regex
+      - Type
+    * - structure
+      - True
+      - False
+      - False
+      - enum[]
+    * - content
+      - False
+      - True
+      - True
+      - str
+    * - Mode
+      - False
+      - False
+      - False
+      - enum["Read", "Write", "Execute"]
 
 Example
 -------

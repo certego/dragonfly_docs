@@ -5,13 +5,26 @@ The module refers to another rule
 
 Fields
 -------
-+------------+----------+-----------+-------+------+
-| Field name | Required | Variables | Regex | Type |
-+------------+----------+-----------+-------+------+
-| sub_rule   | True     | False     | False | str  |
-+------------+----------+-----------+-------+------+
-| owner      | False    | False     | False | str  |
-+------------+----------+-----------+-------+------+
+
+.. list-table::
+    :widths:  25 10 10 10 45
+    :header-rows: 1
+
+    * - Field name
+      - Required
+      - Variables
+      - Regex
+      - Type
+    * - sub_rule
+      - True
+      - False
+      - False
+      - str
+    * - owner
+      - False
+      - False
+      - False
+      - str
 
 
 Example

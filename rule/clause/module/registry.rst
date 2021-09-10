@@ -5,17 +5,37 @@ The module matches registry accesses done by the sample
 
 Fields
 -------
-+------------+----------+-----------+-------+------------------------------------------+
-| Field name | Required | Variables | Regex | Type                                     |
-+------------+----------+-----------+-------+------------------------------------------+
-| key        | True     | True      | True  | str                                      |
-+------------+----------+-----------+-------+------------------------------------------+
-| action     | False    | False     | False | enum["read", "create", "delete", "list"] |
-+------------+----------+-----------+-------+------------------------------------------+
-| value_name | False    | True      | True  | str                                      |
-+------------+----------+-----------+-------+------------------------------------------+
-| value_data | False    | True      | True  | str                                      |
-+------------+----------+-----------+-------+------------------------------------------+
+
+.. list-table::
+    :widths:  25 10 10 10 45
+    :header-rows: 1
+
+    * - Field name
+      - Required
+      - Variables
+      - Regex
+      - Type
+    * - key
+      - True
+      - True
+      - True
+      - str
+    * - action
+      - False
+      - False
+      - False
+      - enum["read", "create", "delete", "list"]
+    * - value_name
+      - False
+      - True
+      - True
+      - str
+    * - value_data
+      - False
+      - True
+      - True
+      - str
+
 
 Example
 -------

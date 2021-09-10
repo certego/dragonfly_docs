@@ -5,13 +5,27 @@ The module matches strings used by the sample
 
 Fields
 -------
-+------------+----------+-----------+-------+------+
-| Field name | Required | Variables | Regex | Type |
-+------------+----------+-----------+-------+------+
-| input      | True     | True      | True  | str  |
-+------------+----------+-----------+-------+------+
-| case       | False    | False     | False | bool |
-+------------+----------+-----------+-------+------+
+
+
+.. list-table::
+    :widths:  25 10 10 10 45
+    :header-rows: 1
+
+    * - Field name
+      - Required
+      - Variables
+      - Regex
+      - Type
+    * - input
+      - True
+      - True
+      - True
+      - str
+    * - case
+      - False
+      - False
+      - False
+      - bool
 
 Example
 -------
