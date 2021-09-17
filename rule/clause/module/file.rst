@@ -25,16 +25,17 @@ Fields
       - False
       - False
       - str
-    * - content
-      - False
-      - True
-      - True
-      - str
     * - access
       - False
       - False
       - False
       - enum["open", "create", "delete"]
+..
+    * - content
+      - False
+      - True
+      - True
+      - str
 
 Example
 -------

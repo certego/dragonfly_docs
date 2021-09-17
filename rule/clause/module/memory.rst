@@ -20,16 +20,17 @@ Fields
       - False
       - False
       - enum[]
+    * - mode
+      - False
+      - False
+      - False
+      - enum["Read", "Write", "Execute"]
+..
     * - content
       - False
       - True
       - True
       - str
-    * - Mode
-      - False
-      - False
-      - False
-      - enum["Read", "Write", "Execute"]
 
 Example
 -------
