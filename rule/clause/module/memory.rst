@@ -19,7 +19,7 @@ Fields
       - True
       - False
       - False
-      - enum[]
+      - enum["Peb", "Peb.Flag", "Teb"]
     * - mode
       - False
       - False
